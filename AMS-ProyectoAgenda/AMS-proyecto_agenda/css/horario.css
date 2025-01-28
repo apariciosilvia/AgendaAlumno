@@ -1,0 +1,52 @@
+body{
+    background-color: #375467;
+}
+
+.titulo{
+    color: aliceblue;
+}
+
+.subtitulo{
+    color: aliceblue;
+}
+
+.horario {
+    width: 60%; 
+    height: 70%;
+    border-collapse: collapse; 
+    font-size: 18px; 
+    margin: auto;
+}
+
+.informacion {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+.boton{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    font-family: AppleGaramond-Light;
+    font-weight: bolder;
+    color: black;
+}
+
+.dias{
+    font-family: Silvertones;
+    font-size: 20px; 
+}
+
+@font-face {
+    font-family: Silvertones;
+    src: url(../fonts/Silvertones.otf);
+}
+
+@font-face {
+    font-family: AppleGaramond-Light;
+    src: url(../fonts/AppleGaramond-Light.ttf);
+}
